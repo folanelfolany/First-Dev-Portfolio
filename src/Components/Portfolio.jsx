@@ -36,7 +36,7 @@ const projectList = [
     url: ""
   },
   {
-    title: "EasyCare Hospital Management System"
+    title: "EasyCare Hospital Management System",
     description: "A simulated hospital management system connecting various departments together, streamlining operations and improving patient care through integrated software solutions.",
     url: "",
   },
