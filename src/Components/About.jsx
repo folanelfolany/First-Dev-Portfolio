@@ -32,11 +32,16 @@ const description =
  */
 const skillsList = [
 
-  "User experience",
+  "Front-end development",
   "Back-end development",
-  "Testing",
-  "Mobile user interfaces"
+  "Cloud computing",
+  "DevOps",
+  "Machine learning",
+  "Cybersecurity",
+  "API development"
 ];
+
+
 
 /**
  * Use this to give more information about what you are passionate about,

@@ -3,11 +3,11 @@
  *
  * To contain application wide settings, routes, state, etc.
  */
-
 import React from "react";
 
 import About from "./Components/About";
 import Footer from "./Components/Footer";
+import Education from "./Components/Education";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
@@ -34,9 +34,10 @@ const siteProps = {
   twitter: "",
   youTube: "",
 };
+/* change the primary color so its light black and the secondary color to a light green  using const primarycolor and const secondarycolor */
 
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#333333"; // light black
+const secondaryColor = "#90EE90"; // light green
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
