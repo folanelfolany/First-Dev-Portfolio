@@ -13,6 +13,11 @@ body {
   padding: 0;
   width: 100%;
 }
+/* add a part to make smooth scroll */
+
+html {
+  scroll-behavior: smooth;
+}
 
 div#main {
   display: flex;

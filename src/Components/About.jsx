@@ -35,9 +35,7 @@ const skillsList = [
   "User experience",
   "Back-end development",
   "Testing",
-  "Mobile user interfaces",
-  "Graphic design",
-
+  "Mobile user interfaces"
 ];
 
 /**
